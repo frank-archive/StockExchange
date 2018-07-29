@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\上层">
+      <UniqueIdentifier>{aec6e7d8-adf5-4206-958f-0f760a86ace9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\中层">
+      <UniqueIdentifier>{6af72002-1331-415b-98d5-752cd9f6a07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\下层">
+      <UniqueIdentifier>{362a4750-58e8-4f47-a3d4-55c69a6fcbeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="public_header.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StockPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface.h">
+      <Filter>头文件\上层</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>头文件\中层</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>头文件\中层</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperUser.h">
+      <Filter>头文件\中层</Filter>
+    </ClInclude>
+    <ClInclude Include="public_header.h">
+      <Filter>头文件\下层</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets.h">
+      <Filter>头文件\下层</Filter>
+    </ClInclude>
+    <ClInclude Include="StockPool.h">
+      <Filter>头文件\下层</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock.h">
+      <Filter>头文件\下层</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="思路简述.docx">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
